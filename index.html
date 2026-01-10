@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="right-nav">
+      <a href="#home" class="nav-link active"><i class="fas fa-home"></i></a>
+      <a href="#about" class="nav-link"><i class="fas fa-user"></i></a>
+      <a href="#skills" class="nav-link"><i class="fas fa-chart-pie"></i></a>
+      <a href="#portfolio" class="nav-link"><i class="fas fa-briefcase"></i></a>
+      <a href="#contact" class="nav-link"><i class="fas fa-envelope"></i></a>
+    </nav>
+
+    <div class="container">
+      <section id="home" class="hero section">
+        <div class="hero-content">
+          <div class="hero-img"></div>
+          <div class="hero-text">
+            <h1>I'M <span>Yachna</span>.<br />WEB DEVELOPER</h1>
+            <h3>
+              Software Engineer focused on building reliable and scalable web
+              applications.
+            </h3>
+            <a href="#about" class="btn"
+              >More About Me <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <h1 class="section-title">About <span>Me</span></h1>
+
+        <div class="about-grid">
+          <div class="personal-info">
+            <div class="profile-summary">
+              <h3>Profile Summary</h3>
+              <p class="summary-text">
+                Software Engineering–focused Web Developer with strong
+                foundations in Data Structures, Algorithms, and Object-Oriented
+                Programming.
+              </p>
+
+              <p class="summary-sub">
+                Experienced in building scalable web applications using
+                JavaScript, React, Node.js, and modern CSS.
+              </p>
+
+              <p class="skills-line">
+                <strong>Core Skills:</strong>
+                JavaScript · React · Node.js · Express · HTML · CSS · DSA
+              </p>
+            </div>
+
+            <a href="YachnaResume.docx" class="btn"
+              >Download Resume<i class="fas fa-download"></i
+            ></a>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <h2>200+</h2>
+              <p>LeetCode Problems Solved</p>
+            </div>
+            <div class="stat-box">
+              <h2>4+</h2>
+              <p>Completed Projects</p>
+            </div>
+            <div class="stat-box">
+              <h2>5+</h2>
+              <p>Technologies</p>
+            </div>
+            <div class="stat-box">
+              <h2>3</h2>
+              <p>Certificates</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <h1 class="section-title">MY <span>SKILLS</span></h1>
+
+        <div class="skills-cards">
+          <div class="skill-card">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <ul>
+              <li>Java</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-desktop"></i> Frontend Development</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-server"></i> Backend Development</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-brain"></i> Problem Solving</h3>
+            <ul>
+              <li>Data Structures & Algorithms</li>
+              <li>200+ LeetCode Problems</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>Postman</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h1 class="section-title">My <span>Portfolio</span></h1>
+
+        <div class="portfolio-tabs">
+          <span class="tab-item active" data-target="all">ALL</span>
+          <span class="tab-item" data-target="web">WEB</span>
+          <span class="tab-item" data-target="app">APP</span>
+          <span class="tab-item" data-target="design">DESIGN</span>
+        </div>
+
+        <!-- ✅ ONE GRID -->
+        <div class="portfolio-grid">
+          <!-- Item 1 -->
+          <div class="portfolio-item web">
+            <img src="assests/yachn.png" alt="Web Project" />
+            <div class="portfolio-overlay">
+              <a href="#" class="overlay-btn">Live Demo</a>
+              <a
+                href="https://github.com/Yachna-CodeCraft/Fin_Track"
+                class="overlay-btn outline"
+                target="_blank"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="portfolio-item web">
+            <img src="assests/voice.png" alt="Web Project" />
+            <div class="portfolio-overlay">
+              <a
+                href="https://yachna-codecraft.github.io/Voicely/"
+                class="overlay-btn"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Yachna-CodeCraft/Voicely"
+                class="overlay-btn outline"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="portfolio-item web">
+            <img src="assests/focus.png" alt="Web Project" />
+            <div class="portfolio-overlay">
+              <a
+                href="https://yachna-codecraft.github.io/FocusFlow/"
+                class="overlay-btn"
+                >Live Demo</a
+              >
+              <a
+                href="https://github.com/Yachna-CodeCraft/FocusFlow"
+                class="overlay-btn outline"
+                >GitHub</a
+              >
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <!-- <div class="portfolio-item web">
+      <img src="yachn.png" alt="Web Project">
+      <div class="portfolio-overlay">
+        <a href="#" class="overlay-btn">Live Demo</a>
+        <a href="#" class="overlay-btn outline">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Item 5 -->
+          <!-- <div class="portfolio-item web">
+      <img src="yachn.png" alt="Web Project">
+      <div class="portfolio-overlay">
+        <a href="#" class="overlay-btn">Live Demo</a>
+        <a href="#" class="overlay-btn outline">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Item 6 -->
+          <!-- <div class="portfolio-item web">
+      <img src="yachn.png" alt="Web Project">
+      <div class="portfolio-overlay">
+        <a href="#" class="overlay-btn">Live Demo</a>
+        <a href="#" class="overlay-btn outline">GitHub</a>
+      </div>
+    </div> -->
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <h1 class="section-title">Get In <span>Touch</span></h1>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Don't be Shy!</h3>
+            <p>
+              Feel free to get in touch with me. I am open to discussing new
+              projects, creative ideas or opportunities.
+            </p>
+            <br />
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address Point</h4>
+                <p>123 Street, Your City</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope-open"></i>
+              <div>
+                <h4>Mail Me</h4>
+                <p>yachnar100@mail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-square-alt"></i>
+              <div>
+                <h4>Call Me</h4>
+                <p>+91 7668383818</p>
+              </div>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <input
+              type="text"
+              name="subject"
+              placeholder="Your Subject"
+              required
+            />
+
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">
+              Send Message <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script>
+      // INIT EmailJS (ONLY public key here)
+      emailjs.init("5oPBdLyzQfdZ_7S5N");
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
